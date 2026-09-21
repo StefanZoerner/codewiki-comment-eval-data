@@ -1,0 +1,19 @@
+{
+  "repo": "dokchess-en",
+  "condition": "withcom",
+  "tag": "sonnet-01",
+  "exit_code": 0,
+  "started": "2026-09-06T17:05:24Z",
+  "duration_s": 1780,
+  "input_dir": "/root/cw-input/dokchess-en-withcom",
+  "input_files": 43,
+  "input_chars": 129445,
+  "output_md_files": 20,
+  "output_md_words": 27251,
+  "github_pages": true,
+  "upstream_commit": "677d33d66bf866d96cecabd98c1af825682ebb97",
+  "upstream_dirty_files": 0,
+  "eval_commit": "ffcdca949dcf826e8d96e58f02be57b981128a89",
+  "codewiki_version": "CodeWiki CLI, version 1.0.1",
+  "host": "deep-wiki"
+}

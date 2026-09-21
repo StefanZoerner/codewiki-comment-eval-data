@@ -1,0 +1,174 @@
+[1/4] Validating configuration...
+✓ Configuration valid
+[2/4] Validating repository...
+✓ Repository valid: dokchess-en-withcom
+[17:05:26] Detected languages: Java (43 files)
+✓ Output directory: /root/GitHub/codewiki-comment-eval/runs/dokchess-en/withcom-sonnet-01/docs
+[4/4] Generating documentation...
+
+[17:05:26] Max tokens: 32768
+[17:05:26] Max token/module: 20000
+[17:05:26] Max token/leaf module: 16000
+[17:05:26] Max depth: 1
+[17:05:26] Use gitignore: True
+
+[00:00] Phase 1/5: Dependency Analysis
+[00:00]   Initializing dependency analyzer...
+[00:00]   Parsing source files...
+[17:05:26] INFO     📊 Parsing 43 source files (this may take a few minutes)...
+[17:05:26] INFO       [1/43] src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java (0.0s elapsed, ~0.0s remaining)
+[17:05:26] INFO       [2/43] src/integTest/java/org/dokchess/textui/integration/XBoardIntegTest.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [3/43] src/main/java/org/dokchess/Main.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [4/43] src/main/java/org/dokchess/domain/CastlingType.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [5/43] src/main/java/org/dokchess/domain/Colour.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [8/43] src/main/java/org/dokchess/domain/Piece.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [12/43] src/main/java/org/dokchess/domain/Squares.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [16/43] src/main/java/org/dokchess/engine/FromLibrary.java (0.0s elapsed, ~0.1s remaining)
+[17:05:26] INFO       [20/43] src/main/java/org/dokchess/engine/search/MinimaxAlgorithm.java (0.0s elapsed, ~0.0s remaining)
+[17:05:26] INFO       [24/43] src/main/java/org/dokchess/opening/OpeningLibrary.java (0.0s elapsed, ~0.0s remaining)
+[17:05:26] INFO       [28/43] src/main/java/org/dokchess/opening/polyglot/PolyglotTools.java (0.1s elapsed, ~0.0s remaining)
+[17:05:26] INFO       [32/43] src/main/java/org/dokchess/rules/ChessRules.java (0.1s elapsed, ~0.0s remaining)
+[17:05:26] INFO       [36/43] src/main/java/org/dokchess/rules/KnightMoves.java (0.1s elapsed, ~0.0s remaining)
+[17:05:26] INFO       [40/43] src/main/java/org/dokchess/rules/RookMoves.java (0.1s elapsed, ~0.0s remaining)
+[17:05:26] INFO     ✓ Analysis complete: 43/43 files analyzed, 0 failed, 216 functions, 488 relationships (0.1s)
+[00:00]   Analyzed 216 files, found 43 leaf nodes
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::EngineVsRandomIntegTest
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::EngineVsRandomIntegTest.gameOver
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::EngineVsRandomIntegTest.move
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::EngineVsRandomIntegTest.playWholeGame
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::EngineVsRandomIntegTest.run
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::MoveOrder
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::MoveOrder.compare
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::MoveOrder.zugWert
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::ZugHinRueck
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::ZugHinRueck.determineBlackMove
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::ZugHinRueck.onCompleted
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::ZugHinRueck.onError
+[00:00]     File: src/integTest/java/org/dokchess/engine/integration/EngineVsRandomIntegTest.java::ZugHinRueck.onNext
+[00:00]     File: src/integTest/java/org/dokchess/textui/integration/XBoardIntegTest.java::XBoardIntegTest
+[00:00]     File: src/integTest/java/org/dokchess/textui/integration/XBoardIntegTest.java::XBoardIntegTest.letsStartToPlay
+[00:00]     File: src/integTest/java/org/dokchess/textui/integration/XBoardIntegTest.java::XBoardIntegTest.run
+[00:00]     File: src/main/java/org/dokchess/Main.java::Main
+[00:00]     File: src/main/java/org/dokchess/Main.java::Main.buildXBoard
+[00:00]     File: src/main/java/org/dokchess/Main.java::Main.main
+[00:00]     File: src/main/java/org/dokchess/domain/CastlingType.java::CastlingType
+[00:00]     ... and 196 more files
+[00:00]   Dependency Analysis complete (0.3s)
+
+[00:00] Phase 2/5: Module Clustering
+[00:00]   Clustering modules with LLM...
+[00:00]   Preparing 43 leaf nodes for clustering (34075 tokens, threshold 20000)
+[00:00]   Clustering modules with LLM...
+[17:05:26] INFO     Module clustering input for repository: 43 leaf nodes, 34075 tokens, threshold 20000
+[17:05:26] INFO     Requesting LLM module clustering for repository because 34075 tokens exceed the 20000-token threshold.
+[17:05:42] INFO     LLM module clustering for repository produced 10 top-level modules.
+[17:05:42] INFO     Module clustering input for domain: 6 leaf nodes, 7061 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for domain because 7061 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for rules: 12 leaf nodes, 5849 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for rules because 5849 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for engine_core: 5 leaf nodes, 1097 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for engine_core because 1097 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for engine_eval: 2 leaf nodes, 453 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for engine_eval because 453 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for engine_search: 6 leaf nodes, 2414 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for engine_search because 2414 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for opening: 1 leaf nodes, 100 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for opening because 100 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for opening_polyglot: 4 leaf nodes, 13919 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for opening_polyglot because 13919 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for textui_xboard: 2 leaf nodes, 1336 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for textui_xboard because 1336 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for main: 1 leaf nodes, 374 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for main because 374 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[17:05:42] INFO     Module clustering input for integration_tests: 4 leaf nodes, 1472 tokens, threshold 20000
+[17:05:42] INFO     Skipping LLM module clustering for integration_tests because 1472 tokens fit within the 20000-token threshold; using whole-module documentation mode.
+[00:16]   Created 10 modules
+[00:16]     Module: domain (? files)
+[00:16]     Module: engine_core (? files)
+[00:16]     Module: engine_eval (? files)
+[00:16]     Module: engine_search (? files)
+[00:16]     Module: integration_tests (? files)
+[00:16]     Module: main (? files)
+[00:16]     Module: opening (? files)
+[00:16]     Module: opening_polyglot (? files)
+[00:16]     Module: rules (? files)
+[00:16]     Module: textui_xboard (? files)
+[00:16]   Module Clustering complete (16.2s)
+
+[00:16] Phase 3/5: Documentation Generation
+[00:16]   Generating module documentation...
+[00:16]   Generating documentation for 10 modules...
+[17:05:42] INFO     📄 Processing leaf module: domain
+[17:06:32] INFO       └─ Generating documentation for sub-module: domain_model
+[17:08:16] INFO       └─ Generating documentation for sub-module: domain_fen
+[17:10:20] INFO     📄 Processing leaf module: rules
+[17:11:11] INFO       └─ Generating documentation for sub-module: rules_core
+[17:13:14] INFO       └─ Generating documentation for sub-module: rules_movement_framework
+[17:14:50] INFO       └─ Generating documentation for sub-module: rules_piece_moves
+[17:16:34] INFO     📄 Processing leaf module: engine_core
+[17:18:23] INFO     📄 Processing leaf module: engine_eval
+[17:19:27] INFO     📄 Processing leaf module: engine_search
+[17:20:29] INFO       └─ Generating documentation for sub-module: engine_search_minimax
+[17:22:33] INFO       └─ Generating documentation for sub-module: engine_search_parallel
+[17:24:46] INFO     📄 Processing leaf module: opening
+[17:25:59] INFO     📄 Processing leaf module: opening_polyglot
+[17:26:51] INFO       └─ Generating documentation for sub-module: opening_polyglot_format
+[17:28:04] INFO       └─ Generating documentation for sub-module: opening_polyglot_book
+[17:30:41] INFO     📄 Processing leaf module: textui_xboard
+[17:31:47] INFO     📄 Processing leaf module: main
+[17:33:05] INFO     📄 Processing leaf module: integration_tests
+[17:34:39] INFO     📚 Generating repository overview
+[17:34:39] INFO     Generating parent documentation for: dokchess-en-withcom
+Warning: IPython is not installed. Mermaidjs magic function is not available.
+[29:37]   Creating repository overview...
+[29:37]   Documentation Generation complete (1761.5s)
+
+[29:37] Phase 4/5: HTML Generation
+[29:37]   Loading module tree and metadata...
+[29:37]   Generated index.html
+[29:37]   HTML Generation complete (0.0s)
+
+✓ Documentation generated successfully!
+
+Output directory:
+  /root/GitHub/codewiki-comment-eval/runs/dokchess-en/withcom-sonnet-01/docs
+
+Generated files:
+  - first_module_tree.json
+  - opening.md
+  - engine_eval.md
+  - rules_core.md
+  - module_tree.json
+  - metadata.json
+  - domain.md
+  - engine_search_parallel.md
+  - engine_search.md
+  - opening_polyglot.md
+  ... and 14 more
+
+Statistics:
+  Total modules:     10
+  Files analyzed:    216
+  Generation time:   29 minutes 38 seconds
+
+Next steps:
+
+1. Review the generated documentation:
+   cat /root/GitHub/codewiki-comment-eval/runs/dokchess-en/withcom-sonnet-01/docs/overview.md
+   open /root/GitHub/codewiki-comment-eval/runs/dokchess-en/withcom-sonnet-01/docs/index.html  # View in browser
+
+2. Commit the documentation:
+   git add docs/
+   git commit -m "Add generated documentation"
+
+3. Push to GitHub:
+   git push origin main
+
+4. Enable GitHub Pages:
+   - Go to repository Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: main, folder: /docs
+
+5. Your documentation will be available at:
+   https://DokChess.github.io/dokchess-en/
+

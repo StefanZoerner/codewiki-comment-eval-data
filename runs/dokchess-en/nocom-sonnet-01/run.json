@@ -1,0 +1,19 @@
+{
+  "repo": "dokchess-en",
+  "condition": "nocom",
+  "tag": "sonnet-01",
+  "exit_code": 0,
+  "started": "2026-09-06T17:53:07Z",
+  "duration_s": 1743,
+  "input_dir": "/root/cw-input/dokchess-en-nocom",
+  "input_files": 43,
+  "input_chars": 102826,
+  "output_md_files": 20,
+  "output_md_words": 25359,
+  "github_pages": true,
+  "upstream_commit": "677d33d66bf866d96cecabd98c1af825682ebb97",
+  "upstream_dirty_files": 0,
+  "eval_commit": "59e4a087d258fb3ce6cb6a38576d11ed7aebad9f",
+  "codewiki_version": "CodeWiki CLI, version 1.0.1",
+  "host": "deep-wiki"
+}

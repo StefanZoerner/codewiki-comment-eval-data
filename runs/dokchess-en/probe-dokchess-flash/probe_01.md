@@ -1,0 +1,5 @@
+I don't have specific information about a chess engine called "DokChess" developed by Stefan Zörner in my knowledge base. While I'm aware that Stefan Zörner is a well-known software architect and author who has written extensively about software architecture patterns like arc42, I cannot provide detailed information about this particular chess engine project.
+
+It's possible that DokChess might be a fictional or hypothetical example used in arc42 documentation, or it could be a lesser-known project that isn't widely documented in publicly available sources. Without access to specific documentation about this particular chess engine, I cannot accurately describe its technical details, architecture, or implementation specifics.
+
+If you're looking for information about this specific project, you might want to consult Stefan Zörner's published works on software architecture or look for any academic papers or presentations where he might have discussed this chess engine as an example of good software design practices.

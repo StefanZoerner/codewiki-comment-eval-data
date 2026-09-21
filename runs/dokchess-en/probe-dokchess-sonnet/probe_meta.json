@@ -1,0 +1,23 @@
+{
+  "question": "Describe the architecture of the DokChess chess engine.",
+  "backend": "openrouter",
+  "model": "anthropic/claude-sonnet-5",
+  "temperature": 0.7,
+  "base_seed": 42,
+  "repeats": 5,
+  "terms": [
+    "ChessRules",
+    "MinimaxParallelSearch",
+    "Polyglot",
+    "XBoard",
+    "org.dokchess"
+  ],
+  "hits": {
+    "ChessRules": 0,
+    "MinimaxParallelSearch": 0,
+    "Polyglot": 0,
+    "XBoard": 0,
+    "org.dokchess": 0
+  },
+  "answers": 5
+}

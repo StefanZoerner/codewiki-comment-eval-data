@@ -1,0 +1,30 @@
+
+CodeWiki Configuration
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Credentials
+
+API Settings
+  Provider:         openai-compatible
+  Main Model:       anthropic/claude-sonnet-5
+  Base URL:         https://openrouter.ai/api/v1
+  Cluster Model:    anthropic/claude-sonnet-5
+  Fallback Model:   qwen/qwen3-coder
+
+Output Settings
+  Default Output:   docs
+
+Token Settings
+  Max Tokens:              32768
+  Max Token/Module:        20000
+  Max Token/Leaf Module:   16000
+
+Decomposition Settings
+  Max Depth:               1
+  Use Gitignore:           True
+
+Agent Instructions
+  Using defaults (no custom settings)
+
+Configuration file: /root/.codewiki/config.json
+
